@@ -36,7 +36,7 @@ public class EmployeeRepositroy {
 		};
 	
 	/**
-	 * 従業員一覧情報を入社順で取得する
+	 * 従業員一覧情報を入社順で取得する.
 	 * (現在が存在しない場合はサイズ0件の従業員一覧を返す)
 	 * 
 	 * @return 全従業員一覧
@@ -52,7 +52,7 @@ public class EmployeeRepositroy {
 	}
 	
 	/**
-	 * 主キーから従業員情報を取得する
+	 * 主キーから従業員情報を取得する.
 	 * 
 	 * @param id ID
 	 * @return 検索された従業員情報
@@ -70,7 +70,7 @@ public class EmployeeRepositroy {
 	}
 	
 	/**
-	 * 従業員情報を変更する
+	 * 従業員情報を変更する.
 	 * 
 	 * @param employee 従業員情報
 	 */
