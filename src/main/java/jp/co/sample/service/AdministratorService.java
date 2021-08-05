@@ -8,7 +8,7 @@ import jp.co.sample.domain.Administrator;
 import jp.co.sample.repository.AdministratorRepository;
 
 /**
- * 管理者情報をリポジトリに受け渡しをするサービス
+ * 管理者情報をリポジトリに受け渡しをするサービス.
  * 
  * @author fukushima
  *
