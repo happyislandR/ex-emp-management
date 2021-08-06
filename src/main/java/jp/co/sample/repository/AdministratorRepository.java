@@ -28,7 +28,7 @@ public class AdministratorRepository {
 			Administrator administrator = new Administrator();
 			administrator.setId(rs.getInt("id"));
 			administrator.setName(rs.getString("name"));
-			administrator.setMailAddress(rs.getString("mailAddress"));
+			administrator.setMailAddress(rs.getString("mail_address"));
 			administrator.setPassword(rs.getString("password"));
 			return administrator;
 		};
@@ -66,6 +66,7 @@ public class AdministratorRepository {
 		if(administratorList.size() == 0) {
 			return null;
 		}
+
 		return administratorList.get(0);
 	}
 }
